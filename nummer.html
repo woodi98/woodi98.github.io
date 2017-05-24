@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+	<p> Welcome to the site <b id='boldstuff'>kompis</b> </p>
+    <input type='button' onclick='changeText()' value="Change Text"/>
+
+
+	<script language="javascript">
+	function changeText(){
+		var nummer=prompt("skriv in ett nummer");
+		document.getElementById('boldstuff').innerHTML = nummer;
+	}
+</script>
+</body>
+</html>
